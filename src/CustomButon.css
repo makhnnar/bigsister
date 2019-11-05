@@ -1,0 +1,16 @@
+.Btn{
+  display: flex;
+  flex:1;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#673ab7;
+  margin: 10px;
+  width: 70%;
+}
+
+.Texto{
+  align-items: center;
+  text-align: center;
+  color:#757575;
+}

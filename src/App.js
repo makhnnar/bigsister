@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 
+//logos
 import logoHincha from './logo_sh.png'
 import logoReact from './logo.svg'
+import avatarDefault from './avatar.jpeg'
+
+//items
 import NewsFeedItem from './news/NewsFeedItem';
 import MenuLateralItem from './menu/MenuLateralItem';
 
@@ -11,7 +15,7 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      titleMenu:'menu',
+      titleMenu:'Menu',
       menuItems : [
         { 
           num:4,
@@ -21,7 +25,7 @@ class App extends Component {
         { 
           num:5,
           name:'Pedro',
-          icon:logoHincha
+          icon:avatarDefault
         },
         { 
           num:6,

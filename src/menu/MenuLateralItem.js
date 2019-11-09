@@ -9,6 +9,10 @@ const MenuLateralItem = ({title='',listaMenu = []}) => {
     return <div className="Contenedor1">
 
         <h1>{title}</h1>
+
+        <h3>{title}</h3>
+
+        <input/>
     
         {
             listaMenu.map(
